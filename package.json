@@ -25,10 +25,13 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.5.0",
+    "eslint": "^3.9.1",
     "istanbul": "^0.4.5",
     "mocha": "^3.1.2",
-    "mockery": "^2.0.0",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "sinon": "^1.17.6"
   },
-  "scripts": {}
+  "scripts": {
+      "test": "istanbul cover _mocha tests/*.test.js"
+  }
 }
