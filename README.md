@@ -4,7 +4,7 @@ This is a minimal boilerplate for a TDD project in javascript and node. It has t
 
 ## Getting started
 
-```bash
+```
 npm install
 
 npm test
